@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Global background */
+body {
+  @apply min-h-screen bg-gradient-to-br from-sky-100 via-blue-100 to-cyan-100 font-sans;
+}
