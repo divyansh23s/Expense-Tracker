@@ -1,16 +1,111 @@
-# React + Vite
+💰 Expense Tracker (React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Expense Tracker application built using React and Tailwind CSS.
+The application allows users to add, edit, and delete expenses, helping them manage daily spending efficiently through a clean and intuitive user interface.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add new expenses with amount and description
 
-## React Compiler
+Edit existing expenses
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Delete expenses
 
-## Expanding the ESLint configuration
+Real-time expense list updates
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clean and responsive UI using Tailwind CSS
+
+Component-based architecture using React
+
+User-friendly and minimal design
+
+🛠️ Tech Stack
+
+Frontend
+
+React.js
+
+Tailwind CSS
+
+JavaScript (ES6+)
+
+Tools
+
+Vite / Create React App (based on setup)
+
+Git & GitHub
+
+📁 Project Structure
+expense-tracker/
+│
+├── src/
+│   ├── components/
+│   │   ├── ExpenseForm.jsx
+│   │   ├── ExpenseList.jsx
+│   │   ├── ExpenseItem.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── public/
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+
+⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/expense-tracker.git
+
+2️⃣ Navigate to Project Folder
+cd expense-tracker
+
+3️⃣ Install Dependencies
+npm install
+
+4️⃣ Start Development Server
+npm run dev
+
+🎯 How It Works
+
+Expenses are managed using React state
+
+Each expense can be edited or deleted instantly
+
+UI updates automatically without page refresh
+
+Tailwind utility classes ensure responsive design
+
+📌 Future Enhancements
+
+Expense category support
+
+Monthly / yearly expense analytics
+
+LocalStorage or database integration
+
+Authentication system
+
+Charts and visual reports
+
+🤝 Contributing
+
+Contributions are welcome.
+If you'd like to improve this project, feel free to fork the repository and submit a pull request.
+
+📄 License
+
+This project is licensed under the MIT License.
+
+👨‍💻 Author
+
+Divyansh Singh
+Frontend Developer | React Enthusiast
+
+The application will run on:
+
+http://localhost:5173/
