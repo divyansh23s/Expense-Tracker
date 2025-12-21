@@ -37,8 +37,10 @@ Git & GitHub
 
 📁 Project Structure
 expense-tracker/
+
 │
 ├── src/
+
 │   ├── components/
 │   │   ├── ExpenseForm.jsx
 │   │   ├── ExpenseList.jsx
