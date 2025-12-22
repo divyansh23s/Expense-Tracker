@@ -48,7 +48,9 @@ export default function ExpenseForm({ people, onAddExpense }) {
       return;
     }
     
+
     onAddExpense({ 
+      id: Date.now().toString(),
       title: title.trim(), 
       amount: Number(amount), 
       paidBy 

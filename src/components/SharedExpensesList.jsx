@@ -1,8 +1,10 @@
 
+
 import Card from "./UI/Card";
 import { EmptyIcon, ExpenseIcon } from "./UI/Icons";
+import ExpenseItem from "./ExpenseItem";
 
-export default function SharedExpensesList({ expenses }) {
+export default function SharedExpensesList({ expenses, people, onUpdateExpense, onDeleteExpense }) {
   return (
     <Card>
       <div className="flex items-center gap-2 mb-4">
@@ -17,22 +19,16 @@ export default function SharedExpensesList({ expenses }) {
           <p className="text-sm">Add your first expense to get started</p>
         </div>
       ) : (
+
         <ul className="space-y-3">
-          {expenses.map((exp, index) => (
-            <li
-              key={index}
-              className="flex justify-between items-center border-b pb-2 last:border-b-0"
-            >
-              <span className="text-slate-700 font-medium">{exp.title}</span>
-              <div className="flex items-center gap-2">
-                <span className="text-sm text-slate-500">
-                  {exp.paidBy}
-                </span>
-                <span className="bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full text-sm font-medium">
-                  ${exp.amount.toFixed(2)}
-                </span>
-              </div>
-            </li>
+          {expenses.map((expense) => (
+            <ExpenseItem
+              key={expense.id}
+              expense={expense}
+              people={people}
+              onUpdateExpense={onUpdateExpense}
+              onDeleteExpense={onDeleteExpense}
+            />
           ))}
         </ul>
       )}

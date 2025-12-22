@@ -8,7 +8,8 @@ import { AppLogo } from "./components/UI/Icons"
 function App() {
 
 
-  const { people, expenses, balances, addPerson, addExpense, settleUp } = useExpenseLogic()
+
+  const { people, expenses, balances, addPerson, updatePerson, deletePerson, addExpense, updateExpense, deleteExpense, settleUp } = useExpenseLogic()
 
   return (
 
@@ -22,9 +23,10 @@ function App() {
 
       <div className="grid md:grid-cols-2 gap-8">
 
-        <PeopleList people={people} onAddPerson={addPerson} />
+
+        <PeopleList people={people} onAddPerson={addPerson} onUpdatePerson={updatePerson} onDeletePerson={deletePerson} />
         <div>
-          <SharedExpensesList expenses={expenses} />
+          <SharedExpensesList expenses={expenses} people={people} onUpdateExpense={updateExpense} onDeleteExpense={deleteExpense} />
           <ExpenseForm people={people} onAddExpense={addExpense} />
         </div>
       </div>
