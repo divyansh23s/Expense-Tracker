@@ -36,6 +36,7 @@ Vite / Create React App (based on setup)
 Git & GitHub
 
 📁 Project Structure
+```
 expense-tracker/
 
 │
@@ -66,9 +67,9 @@ expense-tracker/
 ├── postcss.config.js
 
 └── README.md
-
+```
 ⚙️ Installation & Setup
-
+```
 Follow these steps to run the project locally:
 
 1️⃣ Clone the Repository
@@ -82,7 +83,7 @@ npm install
 
 4️⃣ Start Development Server
 npm run dev
-
+```
 🎯 How It Works
 
 Expenses are managed using React state
