@@ -3,7 +3,7 @@
 A modern, responsive Expense Tracker application built using React and Tailwind CSS.
 The application allows users to add, edit, and delete expenses, helping them manage daily spending efficiently through a clean and intuitive user interface.
 
-🚀 Features
+🚀 Features:
 
 Add new expenses with amount and description
 
@@ -19,7 +19,7 @@ Component-based architecture using React
 
 User-friendly and minimal design
 
-🛠️ Tech Stack
+🛠️ Tech Stack:
 
 Frontend
 
@@ -38,7 +38,6 @@ Git & GitHub
 📁 Project Structure
 ```
 expense-tracker/
-
 │
 ├── src/
 │   ├── components/
@@ -82,7 +81,7 @@ UI updates automatically without page refresh
 
 Tailwind utility classes ensure responsive design
 
-📌 Future Enhancements
+📌 Future Enhancements:
 
 Expense category support
 
