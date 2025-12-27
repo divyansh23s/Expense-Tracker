@@ -41,31 +41,19 @@ expense-tracker/
 
 │
 ├── src/
-
 │   ├── components/
-
 │   │   ├── ExpenseForm.jsx
-
 │   │   ├── ExpenseList.jsx
-
 │   │   ├── ExpenseItem.jsx
 │   │
-
 │   ├── App.jsx
-
 │   ├── main.jsx
-
 │   └── index.css
 │
-
 ├── public/
-
 ├── package.json
-
 ├── tailwind.config.js
-
 ├── postcss.config.js
-
 └── README.md
 ```
 ⚙️ Installation & Setup
