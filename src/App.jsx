@@ -9,7 +9,6 @@ function App() {
   const { people, expenses, balances, addPerson, updatePerson, deletePerson, addExpense, updateExpense, deleteExpense, settleUp } = useExpenseLogic()
 
   return (
-
     <div className="max-w-5xl mx-auto p-8">
       <div className="flex items-center justify-center gap-4 mb-10">
         <AppLogo className="w-12 h-12" />
