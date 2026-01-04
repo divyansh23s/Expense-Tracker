@@ -7,7 +7,6 @@ import { useExpenseLogic } from "./hooks/useExpenseLogic"
 import { AppLogo } from "./components/UI/Icons"
 function App() {
 
-
   const { people, expenses, balances, addPerson, updatePerson, deletePerson, addExpense, updateExpense, deleteExpense, settleUp } = useExpenseLogic()
 
   return (
