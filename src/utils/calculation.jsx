@@ -16,7 +16,7 @@ export const calculateBalances = (people, expenses) => {
     if (paidBy && balances.hasOwnProperty(paidBy)) {
       balances[paidBy] += amount;
     }
-    
+
     // Split the expense equally among all people (including the payer)
     const amountPerPerson = amount / numberOfPeople;
     
