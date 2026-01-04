@@ -1,6 +1,6 @@
 export const calculateBalances = (people, expenses) => {
   const balances = {};
-
+ 
   // Initialize balances for all people
   people.forEach((person) => {
     balances[person] = 0;
