@@ -1,7 +1,6 @@
 import Card from "./UI/Card";
 import { EmptyIcon, ExpenseIcon } from "./UI/Icons";
 import ExpenseItem from "./ExpenseItem";
-
 export default function SharedExpensesList({ expenses, people, onUpdateExpense, onDeleteExpense }) {
   return (
     <Card>
