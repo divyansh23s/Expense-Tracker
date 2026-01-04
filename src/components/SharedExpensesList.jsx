@@ -1,4 +1,3 @@
-
 import Card from "./UI/Card";
 import { EmptyIcon, ExpenseIcon } from "./UI/Icons";
 import ExpenseItem from "./ExpenseItem";
