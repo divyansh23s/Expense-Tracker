@@ -2,7 +2,6 @@ import { useState } from "react";
 import { calculateBalances } from "../utils/calculation";
 
 
-
 export const useExpenseLogic = () => {
     const [ people, setPeople ] = useState([]);
     const [ expenses, setExpenses ] = useState([]);
